@@ -6,28 +6,132 @@
         <title>TP1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="main.js"></script>-->
+        <!--liée notre fichier css a celui de html-->
+        <link rel="stylesheet" type="text/css" href="cv.css">
+       
     </head>
     <body>        
-        <h1>TP1 </h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+
+            <h1 id="titre_page">My First CV</h1>
+        <table >
+            <tr>
+              <td>Nom Prénom</td>
+              <td>Célibataire</td> 
+            </tr>
+            <tr>
+              <td>93 viltaneuse</td>
+              <td> Permis B</td>
+            
+            </tr>
+            <tr>
+              <td>06 06 06 06 06</td>
+              <td></td>
+            </tr>    
+
+            <tr>
+                <td><a href="nom.prenom@gmail.com">nom.prenom@gmail.com</a></td>
+                <td></td>
+              </tr>            
+        </table>
+
+         <h1 id="Titre">Ingénieur d'études et développement </h1>
+
+         <!-- POUR ALLER A UN AUTRE FICHIER HTML A TRAVERS D'UN LIEN RELATIFE ET L'ATTRIBUE TARGET POUR L'OUVRIRE DANS UN AUTRE ONGLET  -->
+
+             <h1><a class="link"  href="Formations.html" target="_blank">Formations</a></h1>
+
+        <table >
+                <tr>
+                  <td>2016</td>
+                  <td><a href="https://galilee.univ-paris13.fr/master/master-ingenierie-innovation-images-reseaux-m3ir/">Master 3IR</a> à l'université Paris XII</td> 
+                </tr>
+                <tr>
+                  <td>2014</td>
+                  <td><a href="https://iutv.univ-paris13.fr/reseaux-telecommunications/">Licence Telecom</a>  à l'université Paris XII</td>
+                
+                </tr>
+                <tr>
+                  <td>2011</td>
+                  <td>Bac S</td>
+                </tr>    
+              
+        </table>
+
+    
+            <h1><a class="link"  href="Compétances.html" target="_blank">Compétances</a></h1>
+
+        <table >
+            <tr>
+              <td>Développement</td>
+              <td>JAVA7, HTML</td> 
+            </tr>
+            <tr>
+              <td>Base de données</td>
+              <td>MySQL,posgreSQL</td>
+            
+            </tr>
+            <tr>
+              <td>Réseaux</td>
+              <td>IPV6,LAN, WIFI</td>
+            </tr>    
+            <tr>
+                <td>Langues</td>
+                <td>Anglais:bilingue, Francais:langue maternelle</td>
+              </tr>    
+          
+         </table>
+
+         <h1><a class="link"  href="Expériences.html" target="_blank">Expériences</a></h1>
+
+         <table >
+             <tr>
+               <td>2016</td>
+               <td>Stage de fin d'études chez: <img id="logo" src="sfr.png" alt="logo SFR"></td> 
+             </tr>
+             <tr>
+               <td>2014</td>
+               <td>Stage chez: <img id="logo" src="edf.png" alt="logo edf"></td>
+             
+             </tr>
+             <tr>
+               <td>2011</td>
+               <td>Bac S</td>
+             </tr>    
+             
+           
+          </table>
+ 
+          
+         <h1><a class="link"  href="Centres d'intétes.html" target="_blank">Centres d'intétes</a></h1>
+
+         <table >
+             <tr>
+               <td>Sport</td>
+               <td>Escalade, Vélo</td> 
+             </tr>
+             <tr>
+               <td>Culture</td>
+               <td>Cinéma, Musique </td>
+             
+             </tr>
+             <tr>
+               <td>Voyage</td>
+               <td>Turquie, Espagne</td>
+             </tr>    
+             
+           
+          </table>
+ 
+ 
+ 
+
+
+
+
+
+        
     </body>
 </html>
