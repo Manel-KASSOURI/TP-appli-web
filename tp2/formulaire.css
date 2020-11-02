@@ -10,19 +10,22 @@ body{
 
 label
 {
+   width:100px;
+   display:inline-block;
    
-	display:block;
-
 
 }
 
-input 
-{ 
-   position:absolute;
-	top:1;
-	right:1000px;
-	
+
+form{
+
+   display: block;
+   margin-top:0em;
+  
+
 }
+
+
 
 input[type=button] 
 { 
@@ -32,16 +35,21 @@ input[type=button]
 
  #error{
 
-    border: 1px outset red;
-    background-color: rosybrown;
-    padding : 5px
-   
- }
+   border : 1px outset #c22525;
+   background-color : rosybrown;
+   padding : 5px  ;
+   display : none;
+}
 
  #resultat{
 
-    color: snow;
-    background-color: seagreen;
-    padding : 5px
-
+    color : snow;
+    background-color : seagreen;
+    padding : 5px;
+    display : none;
  }
+  
+ .display{
+    display: block!important;
+ }
+ 
