@@ -3,31 +3,47 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP2</title>
+        <title>TP2 KASSOURI Manel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
         
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
         <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" type="text/css" href="formulaire.css">
+
         <!--<script src="js/main.js"></script>-->
+        <script type="text/javascript" src="formulaire.js"></script> `
     </head>
+
     <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+
+        <h1>Saisie d'une fiche "Personne" </h1> 
+       
+        <form id="formulaire" >
+
+            <label for="fname">Nom:<input type="text" id="fname" name="fname" ></label><br/>
+            <label for="lname">Prénom:<input type="text" id="lname" name="lname"></label><br/>
+            <label for="date">Date de naissance: <input type="date" id="date" name="date" placeholder="jj/mm/aaaa" /></label><br/>
+            <label for="adresse">Adresse: <input type="text" id="adresse" name="adresse" ></label><br/>
+            <label for="mail">Mail: <input type="text" id="mail" name="mail" /></label><br/>
+            
+            <!--FAIRE APPEL A LA FONCTION VALIDATION LORSQUE ON CLIC SUR VALIDER-->
+            <input type="button" onclick="validation()" value="Valider">  <br/><br/>
+            
+        </form>
+
+
+        <!--**messages d’erreur**-->
+        <div id="error"hhh></div>   
+
+        <!--**message de validation**-->
+        <div id="resultat"></div> `
+
+        
+
+
+
     </body>
 </html>

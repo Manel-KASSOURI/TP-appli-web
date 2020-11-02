@@ -1,0 +1,47 @@
+
+body{
+    background-color: #dfe6e3;              
+    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 800px;              
+  }
+  
+
+label
+{
+   
+	display:block;
+
+
+}
+
+input 
+{ 
+   position:absolute;
+	top:1;
+	right:1000px;
+	
+}
+
+input[type=button] 
+{ 
+    color:#fff; background-color:green;
+    
+ }
+
+ #error{
+
+    border: 1px outset red;
+    background-color: rosybrown;
+    padding : 5px
+   
+ }
+
+ #resultat{
+
+    color: snow;
+    background-color: seagreen;
+    padding : 5px
+
+ }
